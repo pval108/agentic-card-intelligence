@@ -6,11 +6,11 @@ from pathlib import Path
 
 from rapidfuzz import fuzz, process
 
-file = r"C:\Users\pbv01\Documents\Projects\Python\yugioh_extract\card_matcher.py"
+file = "card_matcher.py"
 
 ROOT = Path(file).resolve().parent
 
-print(ROOT)
+#print(ROOT)
 
 DB_PATH = ROOT / "data" / "yugioh.sqlite3"
 
